@@ -1,0 +1,71 @@
+*{box-sizing : border-box;}
+		html{
+			background-image: url(phar.jpeg);
+			color: #003366
+			}
+		label{
+			color: #34495e;
+			font-weight: 600;	
+			font-size:0.9 rem;
+		}
+		form{
+			margin: auto;		
+			width:400px;
+			padding: 10px;
+			margin-top: 20px;
+			box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+			padding: 30px;
+			border-radius: 10px;
+			background: rgba(255, 255, 255, 0.2);
+			backdrop-filter: blur(10px);
+			border: 1px solid rgba(255, 255, 255, 0.3);
+		}
+	p{
+			text-align: center;
+		}
+a{
+			text-decoration: none;
+			color: #007bff;
+		}
+		input:focus{
+			border-color: #2563eb;
+			outline:none;
+		}
+		.bar{
+			padding: 4px 0px 7px 10px;
+			margin: 10px;
+			font-family: Times New Roman;
+		}
+button{
+			padding: 12px;
+			border-radius: 6px;
+			border:none;
+			position: relative;		
+			left: 35%;
+			font-family: Times New Roman;
+			color: white;
+			cursor: pointer;
+			margin-top: 10px;
+			background: #007bff;
+			text-transform: uppercase;
+			letter-spacing: 1px;
+			font-weight:bold;
+			font-size:1 rem;
+		}
+button:hover{
+			background: #0056b3;
+		}
+button:active{
+			transform:scale(0.98);
+		}
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="Phone"],
+input[type="password"]{
+			width:100%;
+			padding:10px;
+			border-radius: 8px;
+			border:1px solid #ccc;
+			box-sizing: border-box;
+		}

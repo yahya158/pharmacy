@@ -1,0 +1,141 @@
+/** top **/
+h1{
+	color: #295C3B;
+	margin-left: 20px;
+}
+.top-p{
+	color: grey;
+	line-height: 20px;
+	margin-left: 20px;
+}
+/** top **/
+/** right side **/
+.contact_detail{
+	display: flex;
+	flex-direction: row;
+}
+.right_cards{
+	display: grid;
+	grid-template-rows:repeat(5, 0.25fr) ;
+	margin-left: 20px;
+	margin-right: 30px;
+	width: 50%;
+}
+.card_contact{
+	width:100%;
+	background:#f2f8f4;
+	margin-bottom: 20px;
+	padding: 10px;
+	border-radius: 20px;
+}
+.card_contact h3 {
+	color: #295C3B;
+	font-size:20px;
+	margin: 0;
+}
+.card_contact p{
+	color:grey ;
+	margin:0;
+}
+.contact_detail img{
+	width:100%;
+	height: 200px;
+	margin-bottom: 20px;
+	border-radius: 20px;
+}
+ .right_cards i {
+    width: 45px;
+    height: 45px;
+    background: #F2F8F4;
+    color: #4A9B68;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    flex-shrink: 0;
+}
+/** rigth side **/
+/** left side **/
+.left_card{
+	background:#f2f8f4;
+	margin-right: 30px;
+	margin-bottom: 20px;
+	border-radius: 20px;
+	padding: 20px;
+	width: 50%;
+}
+.left_card h1{
+	margin:0;
+}
+.left_card p{
+	color:grey;
+}
+#subject {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    background-color: #ffffff;
+    color: #205C3B;
+    font-size: 14px;
+    outline: none;
+}
+
+#subject:focus {
+    border-color: #4A9B68;
+}
+label{
+	color:#295C3B;
+	font-weight: bold;
+}
+input{
+	color: #205C3B;
+	width:100%;
+	padding: 8px;
+	border-radius: 10px;
+	border: 1px solid grey;
+	margin-bottom: 10px;
+	margin-top: 8px;
+}
+input:focus{
+	outline: none;
+	 border-color: #4A9B68;
+}
+textarea{
+	color: #205C3B;
+	width:100%;
+	resize: none;
+	height:200px;
+	margin-top: 8px;
+	margin-bottom: 20px;
+}
+button{
+	width:100%;
+	height:40px;
+	border-radius: 10px;
+	border: none;
+	background:#295C3B;
+	color:white;
+}
+ i {
+    color: #4A9B68;
+    margin-right: 10px;
+    font-size: 16px;
+}
+/** left side **/
+/** mobile **/
+@media(max-width: 768px){
+	.contact_detail{
+		flex-direction: column;
+	}
+	.right_cards{
+		width: 95%;
+	}
+	.left_card{
+		width: 96%;
+		margin-left: 15px;
+	}
+
+
+}
